@@ -20,6 +20,12 @@ O projeto consiste em um backend que expõe endpoints para interagir com um banc
 
 ## Instalação
 
+### Docker
+1. Clone o repositório para a sua máquina local.
+2. Navegue até o diretório do projeto no terminal.
+3. Monte a imagem utilizando `docker build -t <nome-da-imagem>` e depois `docker run <nome-da-imagem> -p 3000:3000`.
+
+### Manual
 1. Clone o repositório para a sua máquina local.
 2. Navegue até o diretório do projeto no terminal.
 3. Instale as dependências executando `yarn install` ou `npm install`.
