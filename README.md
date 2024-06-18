@@ -29,11 +29,8 @@ O projeto consiste em um backend que expõe endpoints para interagir com um banc
 1. Clone o repositório para a sua máquina local.
 2. Navegue até o diretório do projeto no terminal.
 3. Instale as dependências executando `yarn install` ou `npm install`.
-
-## Configuração
-
-1. Copie o arquivo `.env.example` para `.env` e ajuste as variáveis de ambiente conforme necessário, especialmente a URI do [MongoDB](https://www.mongodb.com/).
-2. Execute `npx prisma db push` para criar o esquema do banco de dados no MongoDB.
+4. Copie o arquivo `.env.example` para `.env` e ajuste as variáveis de ambiente conforme necessário, especialmente a URI do [MongoDB](https://www.mongodb.com/).
+5. Execute `npx prisma db push` para criar o esquema do banco de dados no MongoDB.
 
 ## Uso
 
