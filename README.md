@@ -36,6 +36,7 @@ O projeto consiste em um backend que expõe endpoints para interagir com um banc
 
 Para iniciar o servidor, execute o comando: `node server.js`
 
+**OBS:** Caso esteja utilizando [Docker](https://www.docker.com/), não será preciso utilizar o comando acima.
 
 O servidor estará rodando na porta 3000. Você pode então testar os endpoints usando ferramentas como Postman ou cURL.
 
