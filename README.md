@@ -21,7 +21,7 @@ O projeto consiste em um backend que expõe endpoints para interagir com um banc
 ## Instalação
 
 ### Docker
-1. Clone o repositório para a sua máquina local.
+1. Clone o repositório para a sua máquina local `git clone https://github.com/pedrozzoo/cadastro-usuarios.git`.
 2. Navegue até o diretório do projeto no terminal.
 3. Monte a imagem utilizando `docker build -t <nome-da-imagem> .` e depois `docker run -p 3000:3000 <nome-da-imagem>`.
 
@@ -44,9 +44,10 @@ O servidor estará rodando na porta 3000. Você pode então testar os endpoints 
 
 ### Usuários
 
-- **GET /usuarios/** - Lista todos os usuários.
 - **POST /usuarios/** - Registra um novo usuário.
+- **GET /usuarios/** - Lista todos os usuários.
 - **GET /usuarios/{id}** - Obtém detalhes de um usuário específico.
+- **GET /usuarios/?name=** - Obtém detalhes de um usuário específico (por nome).
 - **PUT /usuarios/{id}** - Atualiza um usuário existente.
 - **DELETE /usuarios/{id}** - Remove um usuário.
 
@@ -60,8 +61,5 @@ O servidor estará rodando na porta 3000. Você pode então testar os endpoints 
 }
 ```
 
-## Contribuição
-
-Contribuições são bem-vindas Se você encontrar algum bug ou deseja adicionar novas funcionalidades, sinta-se à vontade para enviar um Pull Request.
 
 ---
